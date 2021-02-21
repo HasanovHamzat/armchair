@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.navbar-top{
+    background: #E5E5E5;
+}
+.navbar-menu{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+.navbar-menu__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.navbar-bottom{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.navbar-number{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.button{
+    cursor: pointer;
+}
+.navbar-button{
+    padding: 12px 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    border: 2px solid #66C05D;
+    background-color: #fff;
+    border-radius: 40px;
+    /* border: none; */
+}
+.line{
+    border: 1px solid #EFEFEF;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.breadcrumb-list__item{
+    margin: 0;
+    margin-right: 40px;
+}
+.breadcrumb-list{
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb-list__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+.sale{
+    padding-top: 112px;
+    padding-bottom: 193px;
+    background-image: url('../img/sale/recliner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sale-title{
+    margin: 0;
+    margin-bottom: 50px; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.sale-description{
+    margin: 0;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.sale-button{
+    padding: 12px 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.offers{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: #EFEFEF;
+}
+.offers-title{
+    margin: 0;
+    margin-bottom: 38px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.offers-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.offers-card{
+    padding: 25px 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    background: #FFFFFF;
+}
+.offers-image{
+    margin-bottom: 20px;
+}
+.offers-description{
+    margin: 0;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+.offers-price{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.offers-button{
+    padding: 9px 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #66C05D;
+    border-radius: 30px;
+    border:none;
+}
+.subscribe{
+    padding-bottom: 133px;
+    background: #EFEFEF;
+}
+.subscribe-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe-block{
+    width: 540px;
+    padding: 35px 45px 35px 40px;
+    background: #66C05D;
+}
+.subscribe-block__mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe-text{
+    margin-right: 65px;
+}
+.subscribe-title{
+    margin: 0;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.subscribe-description{
+    margin: 0;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.input{
+    width: 225px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 9px 0 9px 25px;
+    border-radius: 35px;
+    border: none;
+}
+.subscribe-button{
+    background: #66C05D;
+    padding: 9px 29px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer-top{
+    padding-top: 37px;
+    padding-bottom: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom{
+    background: #EFEFEF;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer-bottom__last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.address{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.author{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+.privacy-policy{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* text-align: right; */
+    color: #828282;
+}
